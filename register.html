@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Registeration</title>
+	<!--------Meta Tag----------->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!---------------Stylesheet------------------->
+	<link rel="icon" href="images/Bookly-logo/default_my_book.gif">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="icon" href="images/Bookly-logo/default_my_book.gif">
+	<link rel="stylesheet" type="text/css" href="css/register_function.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="login100-more" style="background-image: url('images/Bookly-logo/cover.png'); background-size: cover"></div>
+			<div class="wrap-login100 p-l-50 p-r-50 p-t-72 p-b-50">
+				<form class="login100-form validate-form" method="post">
+					<span class="login100-form-title p-b-59">
+						Sign Up
+					</span>
+
+					<div class="wrap-input100 validate-input" data-validate="Name is required">
+						<input class="input100" type="text" name="name" placeholder="Name...">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input100" type="text" name="email" placeholder="Email addess...">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Username is required">
+						<input class="input100" type="text" name="username" placeholder="Username...">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Password is required">
+						<!--<span class="label-input100">Password</span>-->
+						<input class="input100" type="text" name="pass" placeholder="Password">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Repeat Password is required">
+						<input class="input100" type="text" name="repeat-pass" placeholder="Repeat Password">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="flex-m w-full p-b-33 validate-input">
+						<div class="contact100-form-checkbox" data-validate="required">
+							<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+							<label class="label-checkbox100" for="ckb1">
+								<span class="txt1">
+									I agree to the
+									<a href="404.html" class="txt2 hov1">
+										Terms of User
+									</a>
+								</span>
+							</label>
+						</div>
+					</div>
+
+					<div class="container-login100-form-btn">
+						 <div class="text-center offset-top-65">
+							 <div class="login100-form-bgbtn"></div>
+							 <button class="btn btn-default" type="submit">Register</button>
+						</div>
+						 <div class="text-center offset-top-65">
+							<button class="btn btn-default" type="button" onClick="location.href='login.html'">Login<span class="glyphicon glyphicon-arrow-right"></span></button>
+                    	</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!--Script-->
+	<script src="jquery/jquery-3.2.1.min.js"></script>
+	<script src="bootstrap/js/popper.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/register_function.js"></script>
+</body>
+</html>
